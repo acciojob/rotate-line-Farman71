@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+ body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        #line {
+            position: absolute;
+            width: 200px;
+            height: 2px;
+            background-color: #000000;
+            top: 50%;
+            left: 50%;
+            transform-origin: center;
+        }
